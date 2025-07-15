@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class DBContext {
 
     private final String serverName = "localhost";
-    private final String dbName = "LeaveRequestSystem1"; // Thay thế bằng tên DB của bạn
+    private final String dbName = "LeaveManagementDB"; // Thay thế bằng tên DB của bạn
     private final String portNumber = "1433";
     private final String userID = "sa"; // Thay thế bằng user của bạn
     private final String password = "12345"; // Thay thế bằng pass của bạn
