@@ -107,7 +107,7 @@ public class ApproveRequestServlet extends HttpServlet {
 //        System.out.println("Đơn nghỉ phép #" + requestID + " của bạn đã được " + status + ".");
 //        System.out.println("=====================================");
 //
-//        response.sendRedirect("subordinate-requests");
+        response.sendRedirect("subordinate-requests");
     }
 
     /** 
